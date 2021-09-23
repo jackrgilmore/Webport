@@ -36,6 +36,11 @@ h2.big {
     font-weight: 300;
     letter-spacing: 10px;
 }
+.secwrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 
 .section {
     display: flex;
@@ -43,9 +48,9 @@ h2.big {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    margin: 50px;
+    margin: 20px;
     padding: 20px;
-    width: 20%;
+    width: 300px;
     box-shadow: 5px 5px 15px var(--shadowcolor);
 }
 
