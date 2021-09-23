@@ -9,8 +9,8 @@ body {
     color: var(--textcolor);
     font-family: 'Roboto', sans-serif;
     /*variables*/
-    --textcolor: #3f3f3f;
-    --shadowcolor: rgba(0, 0, 0, 0.342);
+    --textcolor: #1f1f1f;
+    --shadowcolor: rgba(0, 0, 0, 0.198);
     --btncolor: rgb(100, 115, 248);
 }
 
@@ -46,7 +46,7 @@ h2.big {
     margin: 50px;
     padding: 20px;
     width: 20%;
-    box-shadow: 7px 7px 20px var(--shadowcolor);
+    box-shadow: 5px 5px 15px var(--shadowcolor);
 }
 
 h2 {
