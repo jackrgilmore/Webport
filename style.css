@@ -37,6 +37,7 @@ h2.big {
     margin: 0;
     font-weight: 300;
     letter-spacing: 10px;
+    text-align: center;
 }
 .secwrap {
     display: flex;
