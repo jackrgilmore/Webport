@@ -78,3 +78,10 @@ h2 {
     background: var(--btncolor);
     color: var(--btntext);
 }
+
+.attribution {
+    text-align: center;
+    padding: 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+}
