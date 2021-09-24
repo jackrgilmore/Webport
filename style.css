@@ -11,7 +11,8 @@ body {
     /*variables*/
     --textcolor: #1f1f1f;
     --shadowcolor: rgba(0, 0, 0, 0.198);
-    --btncolor: rgb(100, 115, 248);
+    --btncolor: rgb(221, 67, 56);
+    --btntext: white;
 }
 
 .title {
@@ -50,12 +51,16 @@ h2.big {
     border-radius: 30px;
     margin: 20px;
     padding: 20px;
-    width: 300px;
+    width: 270px;
     box-shadow: 5px 5px 15px var(--shadowcolor);
 }
 
 h2 {
     margin:0;
+}
+
+.class {
+    margin-bottom: 5px;
 }
 
 .btn {
@@ -69,5 +74,5 @@ h2 {
 
 .btn:hover {
     background: var(--btncolor);
-    color: var(--textcolor);
+    color: var(--btntext);
 }
