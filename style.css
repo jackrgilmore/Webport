@@ -9,6 +9,7 @@ body {
     color: var(--textcolor);
     font-family: 'Roboto', sans-serif;
     /*variables*/
+    --highlight: rgb(238, 188, 49);
     --textcolor: #1f1f1f;
     --shadowcolor: rgba(0, 0, 0, 0.198);
     --btncolor: rgb(221, 67, 56);
