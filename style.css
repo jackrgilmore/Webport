@@ -67,11 +67,11 @@ h2 {
 }
 
 .class {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .btn {
-    margin: 15px;
+    margin: 5px;
     padding: 10px 30px;
     text-decoration: none;
     color: var(--btncolor);
