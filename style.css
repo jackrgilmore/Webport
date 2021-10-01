@@ -14,6 +14,11 @@ body {
     --shadowcolor: rgba(0, 0, 0, 0.198);
     --btncolor: rgb(221, 67, 56);
     --btntext: white;
+    --history: rgb(153, 41, 153);
+    --algebra: rgb(221, 67, 56);
+    --biology: rgb(36, 158, 36);
+    --english: rgb(32, 60, 216);
+    --spanish: rgb(238, 238, 113);
 }
 
 .title {
@@ -22,6 +27,30 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.tag {
+    position: fixed;
+    margin: 20px;
+    width: auto;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 3px solid grey;
+    color: var grey;
+    font-weight: bold;
+}
+
+.tag.history {
+    position: fixed;
+    margin: 20px;
+    width: auto;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 3px solid var(--history);
+    color: var(--history);
+    font-weight: bold;
 }
 
 img.big {
@@ -43,6 +72,12 @@ h2.big {
     font-weight: 300;
     letter-spacing: 10px;
     text-align: center;
+}
+
+.btn.big {
+    font-size: 50px;
+    border: 5px solid;
+    margin-top: 50px;
 }
 .secwrap {
     display: flex;
@@ -82,6 +117,7 @@ h2 {
 .btn:hover {
     background: var(--btncolor);
     color: var(--btntext);
+    border: solid 5px var(--btncolor);
 }
 
 .attribution {
