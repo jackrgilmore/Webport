@@ -103,6 +103,7 @@ h2 {
 
 .class {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .btn {
@@ -117,7 +118,6 @@ h2 {
 .btn:hover {
     background: var(--btncolor);
     color: var(--btntext);
-    border: solid 5px var(--btncolor);
 }
 
 .attribution {
